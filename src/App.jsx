@@ -162,7 +162,7 @@ function CalculatorOperation({ operation }) {
   return (
     <div>
       <input
-        type="text"
+        type="number"
         value={firstInput}
         onChange={(e) => setFirstInput(Number(e.target.value))}
       />
