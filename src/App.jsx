@@ -171,7 +171,7 @@ function CalculatorOperation({ operation }) {
       {operation === "Multiply" && "*"}
       {operation === "Divide" && "/"}
       <input
-        type="text"
+        type="number"
         value={secondInput}
         onChange={(e) => setSecondInput(Number(e.target.value))}
       />
